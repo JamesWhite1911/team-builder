@@ -16,6 +16,12 @@ const initialFormValues = {
     role: '',
 }
 
+const prop = 'a'
+const foo = { a: 1, b: 2 }
+const bar = { ...foo, [prop]: 3 }
+
+console.log(bar.a)
+
 //export app
 export default function App() {
     //state of data
